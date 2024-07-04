@@ -1,10 +1,8 @@
-/* body{
-    margin: 0 20%;
-} */
 .nav{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0;
     background-color: #FDF2E6;
 }
@@ -21,7 +19,7 @@ ul{
     margin:0;
 }
 li{
-    align-content: center;
+    padding-right: 10px;
     margin: 0 10px;
 }
 .content img{
@@ -40,6 +38,40 @@ h2{
     width: 300px;
     height: 230px;
 }
-.sercon ul{
-    width: 100px;
+.Ser{
+    width: 100%;
+}
+.sercon img{
+    width: 330px;
+    padding: 20px;
+}
+.product h2{
+    padding: 20px 0;
+}
+.product{
+    background-color: gray;
+}
+.product ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    justify-content: center;
+}
+.product img{
+    width: 330px;
+    padding: 20px;
+}
+.con{
+    text-align: center;
+}
+.form1{
+    display: inline-block;
+    text-align: right;
+}
+.form1 li{
+    padding: 15px 0;
+}
+.endli{
+    text-align: right;
+    margin-right: 20px;
 }
